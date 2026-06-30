@@ -1,0 +1,16 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+restartPolicyType = "on_failure"
+requiredMountPath = "/data"
+
+[variables]
+HERMES_HOME = "/data/.hermes"
+HOME = "/data"
+HERMES_QUIET = "true"
+# OpenRouter presets: openai/gpt-5.4-mini or google/gemini-2.5-flash
+HERMES_MODEL = "openai/gpt-5.4-mini"
+OPENROUTER_API_KEY = ""
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_ALLOWED_USERS = ""
