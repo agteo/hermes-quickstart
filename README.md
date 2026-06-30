@@ -1,4 +1,4 @@
-# hermes-railway
+# hermes-quickstart
 
 One-click Railway deployments for [Hermes Agent](https://github.com/NousResearch/hermes-agent), a self-improving autonomous AI agent with Telegram support.
 
